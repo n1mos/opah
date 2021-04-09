@@ -2,7 +2,7 @@ import React from 'react'
 import { ScrollView, Text, View } from 'react-native'
 import { connect } from 'react-redux'
 
-import PeopleActions from 'App/Stores/People/Actions';
+import PeopleActions from 'App/Stores/People/Actions'
 import Styles from './MovieScreen.style'
 import Movie from 'App/Containers/Movie/Movie'
 import PeopleList from 'App/Components/PeopleList/PeopleList'
@@ -13,9 +13,14 @@ class MovieScreen extends React.Component {
   }
 
   render() {
-    const { navigation: { state: { params: { data }, }, }, people } = this.props
-
-    console.log(people)
+    const {
+      navigation: {
+        state: {
+          params: { data },
+        },
+      },
+      people,
+    } = this.props
 
     return (
       <ScrollView style={Styles.scrollView}>

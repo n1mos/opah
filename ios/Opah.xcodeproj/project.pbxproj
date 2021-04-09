@@ -12,16 +12,16 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		180E8F10109AAC0F6C4AE8A5 /* libPods-Opah-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2C6D1905A57358D15545F /* libPods-Opah-tvOS.a */; };
 		298566B4182437FDC9416AAA /* libPods-Opah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD0398590D8F93705C82ABE /* libPods-Opah.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* OpahTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OpahTests.m */; };
-		4DAB87E83FB0F8E413EA3C28 /* libPods-Opah-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-Opah-tvOSTests.a */; };
+		3C557369C4AF6E8F4557E93A /* libPods-Opah-OpahTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CB8C35B4582F894C0ECBE6 /* libPods-Opah-OpahTests.a */; };
+		3FB506DC2620E25F004E474F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB506DB2620E25F004E474F /* File.swift */; };
+		3FB506DD2620E25F004E474F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB506DB2620E25F004E474F /* File.swift */; };
 		63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */; };
-		9B5170A1E2968F671F086D1D /* libPods-OpahTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-OpahTests.a */; };
 		BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -45,11 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0048B5962F042D541D140586 /* Pods-Opah-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Opah-tvOSTests/Pods-Opah-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* OpahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* OpahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpahTests.m; sourceTree = "<group>"; };
+		09CB8C35B4582F894C0ECBE6 /* libPods-Opah-OpahTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opah-OpahTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Opah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Opah/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Opah/AppDelegate.m; sourceTree = "<group>"; };
@@ -57,15 +57,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Opah/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Opah/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Opah/main.m; sourceTree = "<group>"; };
-		262FB68990FABB4B74A57DD9 /* libPods-Opah-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opah-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C796AA8C8F5BAB0F8451AA5 /* Pods-Opah-OpahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-OpahTests.release.xcconfig"; path = "Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Opah-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opah-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Opah-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opah-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E316EC11926A316EADC97C /* Pods-Opah-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Opah-tvOS/Pods-Opah-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		392317E8F372604E55971F70 /* Pods-OpahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpahTests.release.xcconfig"; path = "Target Support Files/Pods-OpahTests/Pods-OpahTests.release.xcconfig"; sourceTree = "<group>"; };
-		46C2C6D1905A57358D15545F /* libPods-Opah-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opah-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5329D520C5178EF1D2E66068 /* libPods-OpahTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpahTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3EFA04EABA7989E628AC64 /* Pods-Opah-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Opah-tvOSTests/Pods-Opah-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB506D92620E25F004E474F /* Opah-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Opah-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FB506DA2620E25F004E474F /* Opah-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Opah-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FB506DB2620E25F004E474F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		75E936EB1A3002F6A9AB4156 /* Pods-Opah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah.release.xcconfig"; path = "Target Support Files/Pods-Opah/Pods-Opah.release.xcconfig"; sourceTree = "<group>"; };
 		764AD50AC6F939E0A1C08B00 /* Pods-OpahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpahTests.debug.xcconfig"; path = "Target Support Files/Pods-OpahTests/Pods-OpahTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
@@ -74,7 +73,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EDD0398590D8F93705C82ABE /* libPods-Opah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB800E05AFB04A97491C501A /* Pods-Opah-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Opah-tvOS/Pods-Opah-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F69549D0F104D728E302F2 /* Pods-Opah-OpahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opah-OpahTests.debug.xcconfig"; path = "Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5170A1E2968F671F086D1D /* libPods-OpahTests.a in Frameworks */,
+				3C557369C4AF6E8F4557E93A /* libPods-Opah-OpahTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +102,6 @@
 				ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
 				63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */,
-				180E8F10109AAC0F6C4AE8A5 /* libPods-Opah-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAB87E83FB0F8E413EA3C28 /* libPods-Opah-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +162,7 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				EDD0398590D8F93705C82ABE /* libPods-Opah.a */,
-				46C2C6D1905A57358D15545F /* libPods-Opah-tvOS.a */,
-				262FB68990FABB4B74A57DD9 /* libPods-Opah-tvOSTests.a */,
-				5329D520C5178EF1D2E66068 /* libPods-OpahTests.a */,
+				09CB8C35B4582F894C0ECBE6 /* libPods-Opah-OpahTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,12 +172,10 @@
 			children = (
 				B47D75E5D1913E2479AB2B8D /* Pods-Opah.debug.xcconfig */,
 				75E936EB1A3002F6A9AB4156 /* Pods-Opah.release.xcconfig */,
-				FB800E05AFB04A97491C501A /* Pods-Opah-tvOS.debug.xcconfig */,
-				34E316EC11926A316EADC97C /* Pods-Opah-tvOS.release.xcconfig */,
-				5C3EFA04EABA7989E628AC64 /* Pods-Opah-tvOSTests.debug.xcconfig */,
-				0048B5962F042D541D140586 /* Pods-Opah-tvOSTests.release.xcconfig */,
 				764AD50AC6F939E0A1C08B00 /* Pods-OpahTests.debug.xcconfig */,
 				392317E8F372604E55971F70 /* Pods-OpahTests.release.xcconfig */,
+				F0F69549D0F104D728E302F2 /* Pods-Opah-OpahTests.debug.xcconfig */,
+				2C796AA8C8F5BAB0F8451AA5 /* Pods-Opah-OpahTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -197,6 +190,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3FB506DB2620E25F004E474F /* File.swift */,
 				13B07FAE1A68108700A75B9A /* Opah */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* OpahTests */,
@@ -204,6 +198,8 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0476B6D92256026C006BDB17 /* Recovered References */,
 				6B80F6007C5408FEF5BD69DE /* Pods */,
+				3FB506D92620E25F004E474F /* Opah-Bridging-Header.h */,
+				3FB506DA2620E25F004E474F /* Opah-tvOS-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -232,6 +228,8 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				695C0BBAEBFD0E26D7FECC63 /* [CP] Embed Pods Frameworks */,
+				D98D3E823950FCBB1611ECC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +250,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F8A11ADBE3C870CFA6AD29EE /* [CP] Embed Pods Frameworks */,
+				E748D5D60CDC5C57F612DDEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,7 +266,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Opah-tvOS" */;
 			buildPhases = (
-				E7187EBD4D89301711758D0B /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -285,7 +284,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Opah-tvOSTests" */;
 			buildPhases = (
-				1486E41A1E3086C92FA56BC5 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -313,8 +311,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1240;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -395,28 +397,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1486E41A1E3086C92FA56BC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Opah-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1876371A241F99EEA27D744C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +433,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		695C0BBAEBFD0E26D7FECC63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9484506995FC29A4EE3D00D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,33 +466,65 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OpahTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Opah-OpahTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7187EBD4D89301711758D0B /* [CP] Check Pods Manifest.lock */ = {
+		D98D3E823950FCBB1611ECC2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Opah-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opah-OpahTests/Pods-Opah-OpahTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E748D5D60CDC5C57F612DDEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opah/Pods-Opah-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opah/Pods-Opah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A11ADBE3C870CFA6AD29EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Opah/Pods-Opah-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Opah/Pods-Opah-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -513,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				3FB506DC2620E25F004E474F /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				3FB506DD2620E25F004E474F /* File.swift in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,8 +596,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764AD50AC6F939E0A1C08B00 /* Pods-OpahTests.debug.xcconfig */;
+			baseConfigurationReference = F0F69549D0F104D728E302F2 /* Pods-Opah-OpahTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -595,8 +628,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392317E8F372604E55971F70 /* Pods-OpahTests.release.xcconfig */;
+			baseConfigurationReference = 2C796AA8C8F5BAB0F8451AA5 /* Pods-Opah-OpahTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
@@ -626,6 +660,7 @@
 			baseConfigurationReference = B47D75E5D1913E2479AB2B8D /* Pods-Opah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
@@ -641,6 +676,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Opah;
+				SWIFT_OBJC_BRIDGING_HEADER = "Opah-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -650,6 +688,7 @@
 			baseConfigurationReference = 75E936EB1A3002F6A9AB4156 /* Pods-Opah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,17 +703,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Opah;
+				SWIFT_OBJC_BRIDGING_HEADER = "Opah-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB800E05AFB04A97491C501A /* Pods-Opah-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -699,6 +740,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Opah-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Opah-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -706,11 +750,11 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E316EC11926A316EADC97C /* Pods-Opah-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -735,6 +779,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Opah-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Opah-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -742,8 +788,8 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3EFA04EABA7989E628AC64 /* Pods-Opah-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -777,8 +823,8 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0048B5962F042D541D140586 /* Pods-Opah-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -841,6 +887,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -894,6 +941,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
